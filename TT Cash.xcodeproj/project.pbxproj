@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E66691F1FE620C40047C004 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E66691E1FE620C40047C004 /* ScoreViewController.swift */; };
+		5E6669211FE620FB0047C004 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6669201FE620FB0047C004 /* GameViewController.swift */; };
+		5EE6AD431FE55DA100F22E13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE6AD421FE55DA100F22E13 /* AppDelegate.swift */; };
+		5EE6AD451FE55DA100F22E13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE6AD441FE55DA100F22E13 /* ViewController.swift */; };
+		5EE6AD481FE55DA100F22E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE6AD461FE55DA100F22E13 /* Main.storyboard */; };
+		5EE6AD4A1FE55DA100F22E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EE6AD491FE55DA100F22E13 /* Assets.xcassets */; };
+		5EE6AD4D1FE55DA100F22E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE6AD4B1FE55DA100F22E13 /* LaunchScreen.storyboard */; };
+		5EE6AD581FE55DA100F22E13 /* TT_CashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE6AD571FE55DA100F22E13 /* TT_CashTests.swift */; };
+		5EE6AD631FE55DA100F22E13 /* TT_CashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE6AD621FE55DA100F22E13 /* TT_CashUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E642D2A1FEA2E470043F6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E642D201FEA2E450043F6CA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		5E642D2C1FEA2E470043F6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E642D201FEA2E450043F6CA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		5E642D2E1FEA2E470043F6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E642D201FEA2E450043F6CA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		5E642D301FEA2E470043F6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E642D201FEA2E450043F6CA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		5E642D321FEA2E470043F6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E642D201FEA2E450043F6CA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		5E642D341FEA2E470043F6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E642D201FEA2E450043F6CA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		5E642D361FEA2E470043F6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E642D201FEA2E450043F6CA /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+		5EE6AD541FE55DA100F22E13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EE6AD371FE55DA000F22E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EE6AD3E1FE55DA100F22E13;
+			remoteInfo = "TT Cash";
+		};
+		5EE6AD5F1FE55DA100F22E13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EE6AD371FE55DA000F22E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EE6AD3E1FE55DA100F22E13;
+			remoteInfo = "TT Cash";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E642D201FEA2E450043F6CA /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../Downloads/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		5E66691E1FE620C40047C004 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		5E6669201FE620FB0047C004 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5EE6AD3F1FE55DA100F22E13 /* TT Cash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TT Cash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE6AD421FE55DA100F22E13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EE6AD441FE55DA100F22E13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EE6AD471FE55DA100F22E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EE6AD491FE55DA100F22E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EE6AD4C1FE55DA100F22E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EE6AD4E1FE55DA100F22E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EE6AD531FE55DA100F22E13 /* TT CashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TT CashTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE6AD571FE55DA100F22E13 /* TT_CashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TT_CashTests.swift; sourceTree = "<group>"; };
+		5EE6AD591FE55DA100F22E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EE6AD5E1FE55DA100F22E13 /* TT CashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TT CashUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE6AD621FE55DA100F22E13 /* TT_CashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TT_CashUITests.swift; sourceTree = "<group>"; };
+		5EE6AD641FE55DA100F22E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EE6AD3C1FE55DA100F22E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE6AD501FE55DA100F22E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE6AD5B1FE55DA100F22E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E642D211FEA2E450043F6CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E642D2B1FEA2E470043F6CA /* SQLite.framework */,
+				5E642D2D1FEA2E470043F6CA /* SQLiteTests iOS.xctest */,
+				5E642D2F1FEA2E470043F6CA /* SQLite.framework */,
+				5E642D311FEA2E470043F6CA /* SQLiteTests Mac.xctest */,
+				5E642D331FEA2E470043F6CA /* SQLite.framework */,
+				5E642D351FEA2E470043F6CA /* SQLiteTests tvOS.xctest */,
+				5E642D371FEA2E470043F6CA /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E642D381FEA2ED40043F6CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EE6AD361FE55DA000F22E13 = {
+			isa = PBXGroup;
+			children = (
+				5EE6AD411FE55DA100F22E13 /* TT Cash */,
+				5EE6AD561FE55DA100F22E13 /* TT CashTests */,
+				5EE6AD611FE55DA100F22E13 /* TT CashUITests */,
+				5EE6AD401FE55DA100F22E13 /* Products */,
+				5E642D201FEA2E450043F6CA /* SQLite.xcodeproj */,
+				5E642D381FEA2ED40043F6CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EE6AD401FE55DA100F22E13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EE6AD3F1FE55DA100F22E13 /* TT Cash.app */,
+				5EE6AD531FE55DA100F22E13 /* TT CashTests.xctest */,
+				5EE6AD5E1FE55DA100F22E13 /* TT CashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EE6AD411FE55DA100F22E13 /* TT Cash */ = {
+			isa = PBXGroup;
+			children = (
+				5EE6AD421FE55DA100F22E13 /* AppDelegate.swift */,
+				5EE6AD441FE55DA100F22E13 /* ViewController.swift */,
+				5EE6AD461FE55DA100F22E13 /* Main.storyboard */,
+				5EE6AD491FE55DA100F22E13 /* Assets.xcassets */,
+				5EE6AD4B1FE55DA100F22E13 /* LaunchScreen.storyboard */,
+				5EE6AD4E1FE55DA100F22E13 /* Info.plist */,
+				5E66691E1FE620C40047C004 /* ScoreViewController.swift */,
+				5E6669201FE620FB0047C004 /* GameViewController.swift */,
+			);
+			path = "TT Cash";
+			sourceTree = "<group>";
+		};
+		5EE6AD561FE55DA100F22E13 /* TT CashTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EE6AD571FE55DA100F22E13 /* TT_CashTests.swift */,
+				5EE6AD591FE55DA100F22E13 /* Info.plist */,
+			);
+			path = "TT CashTests";
+			sourceTree = "<group>";
+		};
+		5EE6AD611FE55DA100F22E13 /* TT CashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EE6AD621FE55DA100F22E13 /* TT_CashUITests.swift */,
+				5EE6AD641FE55DA100F22E13 /* Info.plist */,
+			);
+			path = "TT CashUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EE6AD3E1FE55DA100F22E13 /* TT Cash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE6AD671FE55DA100F22E13 /* Build configuration list for PBXNativeTarget "TT Cash" */;
+			buildPhases = (
+				5EE6AD3B1FE55DA100F22E13 /* Sources */,
+				5EE6AD3C1FE55DA100F22E13 /* Frameworks */,
+				5EE6AD3D1FE55DA100F22E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TT Cash";
+			productName = "TT Cash";
+			productReference = 5EE6AD3F1FE55DA100F22E13 /* TT Cash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EE6AD521FE55DA100F22E13 /* TT CashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE6AD6A1FE55DA100F22E13 /* Build configuration list for PBXNativeTarget "TT CashTests" */;
+			buildPhases = (
+				5EE6AD4F1FE55DA100F22E13 /* Sources */,
+				5EE6AD501FE55DA100F22E13 /* Frameworks */,
+				5EE6AD511FE55DA100F22E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EE6AD551FE55DA100F22E13 /* PBXTargetDependency */,
+			);
+			name = "TT CashTests";
+			productName = "TT CashTests";
+			productReference = 5EE6AD531FE55DA100F22E13 /* TT CashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EE6AD5D1FE55DA100F22E13 /* TT CashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE6AD6D1FE55DA100F22E13 /* Build configuration list for PBXNativeTarget "TT CashUITests" */;
+			buildPhases = (
+				5EE6AD5A1FE55DA100F22E13 /* Sources */,
+				5EE6AD5B1FE55DA100F22E13 /* Frameworks */,
+				5EE6AD5C1FE55DA100F22E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EE6AD601FE55DA100F22E13 /* PBXTargetDependency */,
+			);
+			name = "TT CashUITests";
+			productName = "TT CashUITests";
+			productReference = 5EE6AD5E1FE55DA100F22E13 /* TT CashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EE6AD371FE55DA000F22E13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Amine Kammoun";
+				TargetAttributes = {
+					5EE6AD3E1FE55DA100F22E13 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5EE6AD521FE55DA100F22E13 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5EE6AD3E1FE55DA100F22E13;
+					};
+					5EE6AD5D1FE55DA100F22E13 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5EE6AD3E1FE55DA100F22E13;
+					};
+				};
+			};
+			buildConfigurationList = 5EE6AD3A1FE55DA100F22E13 /* Build configuration list for PBXProject "TT Cash" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EE6AD361FE55DA000F22E13;
+			productRefGroup = 5EE6AD401FE55DA100F22E13 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5E642D211FEA2E450043F6CA /* Products */;
+					ProjectRef = 5E642D201FEA2E450043F6CA /* SQLite.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5EE6AD3E1FE55DA100F22E13 /* TT Cash */,
+				5EE6AD521FE55DA100F22E13 /* TT CashTests */,
+				5EE6AD5D1FE55DA100F22E13 /* TT CashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5E642D2B1FEA2E470043F6CA /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 5E642D2A1FEA2E470043F6CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5E642D2D1FEA2E470043F6CA /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 5E642D2C1FEA2E470043F6CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5E642D2F1FEA2E470043F6CA /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 5E642D2E1FEA2E470043F6CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5E642D311FEA2E470043F6CA /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 5E642D301FEA2E470043F6CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5E642D331FEA2E470043F6CA /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 5E642D321FEA2E470043F6CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5E642D351FEA2E470043F6CA /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 5E642D341FEA2E470043F6CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5E642D371FEA2E470043F6CA /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 5E642D361FEA2E470043F6CA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EE6AD3D1FE55DA100F22E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE6AD4D1FE55DA100F22E13 /* LaunchScreen.storyboard in Resources */,
+				5EE6AD4A1FE55DA100F22E13 /* Assets.xcassets in Resources */,
+				5EE6AD481FE55DA100F22E13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE6AD511FE55DA100F22E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE6AD5C1FE55DA100F22E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EE6AD3B1FE55DA100F22E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6669211FE620FB0047C004 /* GameViewController.swift in Sources */,
+				5EE6AD451FE55DA100F22E13 /* ViewController.swift in Sources */,
+				5EE6AD431FE55DA100F22E13 /* AppDelegate.swift in Sources */,
+				5E66691F1FE620C40047C004 /* ScoreViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE6AD4F1FE55DA100F22E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE6AD581FE55DA100F22E13 /* TT_CashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE6AD5A1FE55DA100F22E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE6AD631FE55DA100F22E13 /* TT_CashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EE6AD551FE55DA100F22E13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EE6AD3E1FE55DA100F22E13 /* TT Cash */;
+			targetProxy = 5EE6AD541FE55DA100F22E13 /* PBXContainerItemProxy */;
+		};
+		5EE6AD601FE55DA100F22E13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EE6AD3E1FE55DA100F22E13 /* TT Cash */;
+			targetProxy = 5EE6AD5F1FE55DA100F22E13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EE6AD461FE55DA100F22E13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EE6AD471FE55DA100F22E13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EE6AD4B1FE55DA100F22E13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EE6AD4C1FE55DA100F22E13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EE6AD651FE55DA100F22E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EE6AD661FE55DA100F22E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EE6AD681FE55DA100F22E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TT Cash/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "if26.utt.fr.TT-Cash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EE6AD691FE55DA100F22E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TT Cash/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "if26.utt.fr.TT-Cash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EE6AD6B1FE55DA100F22E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TT CashTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "if26.utt.fr.TT-CashTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TT Cash.app/TT Cash";
+			};
+			name = Debug;
+		};
+		5EE6AD6C1FE55DA100F22E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TT CashTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "if26.utt.fr.TT-CashTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TT Cash.app/TT Cash";
+			};
+			name = Release;
+		};
+		5EE6AD6E1FE55DA100F22E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TT CashUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "if26.utt.fr.TT-CashUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TT Cash";
+			};
+			name = Debug;
+		};
+		5EE6AD6F1FE55DA100F22E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TT CashUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "if26.utt.fr.TT-CashUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TT Cash";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EE6AD3A1FE55DA100F22E13 /* Build configuration list for PBXProject "TT Cash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE6AD651FE55DA100F22E13 /* Debug */,
+				5EE6AD661FE55DA100F22E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE6AD671FE55DA100F22E13 /* Build configuration list for PBXNativeTarget "TT Cash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE6AD681FE55DA100F22E13 /* Debug */,
+				5EE6AD691FE55DA100F22E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE6AD6A1FE55DA100F22E13 /* Build configuration list for PBXNativeTarget "TT CashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE6AD6B1FE55DA100F22E13 /* Debug */,
+				5EE6AD6C1FE55DA100F22E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE6AD6D1FE55DA100F22E13 /* Build configuration list for PBXNativeTarget "TT CashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE6AD6E1FE55DA100F22E13 /* Debug */,
+				5EE6AD6F1FE55DA100F22E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EE6AD371FE55DA000F22E13 /* Project object */;
+}
